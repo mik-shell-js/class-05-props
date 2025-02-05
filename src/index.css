@@ -20,9 +20,12 @@ h2 {
 }
 
 .card {
+  background-color: #e2e8f0;
   border-radius: 12px;
   max-width: 300px;
   overflow: auto;
+  margin: 1em;
+
 }
 
 .card img {
@@ -34,4 +37,5 @@ h2 {
 .citation {
   font-size: 10pt;
   color: #000000;
+  padding: 1em;
 }

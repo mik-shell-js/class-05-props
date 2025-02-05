@@ -1,6 +1,5 @@
-export default function BusinessCard() {
-  const name = "Ezra Cornell"
-  const email = "ezra@cornell.edu"
+export default function BusinessCard({name, email}) {
+
   return (
     <div style={
       {
@@ -8,8 +7,9 @@ export default function BusinessCard() {
         padding: '10px',
         margin: '10px',
         maxWidth: '500px',
-        backgroundColor: '#ffffff',
-        color: '#000000'
+        backgroundColor: "#e2e8f0",
+        color: '#000000',
+        borderRadius: '22px',
       }
     }>
       <h2>{name}</h2>
