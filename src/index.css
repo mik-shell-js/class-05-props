@@ -1,0 +1,37 @@
+html {
+  font-family: sans-serif;
+  background-color: #3d3b40;
+  color: #ffffff;
+}
+
+main {
+  padding: 1em;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card {
+  border-radius: 12px;
+  max-width: 300px;
+  overflow: auto;
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.citation {
+  font-size: 10pt;
+  color: #000000;
+}
