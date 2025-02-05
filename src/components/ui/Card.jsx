@@ -1,9 +1,9 @@
 import Citation from "../Citation";
 
-export default function Card() {
+export default function Card({ imgUri, altText, citation }) {
   return (
     <div className="card">
-      <img src="/images/galaxy.webp" alt="an AI generated galaxy" />
+      <img src={imgUri} alt={altText} />
 
       <Citation />
     </div>
